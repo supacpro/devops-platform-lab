@@ -3,3 +3,4 @@ pytest
 pytest-cov
 ruff
 black
+pre-commit
