@@ -34,3 +34,9 @@ jobs:
             --cov=app \
             --cov-report=term-missing \
             --cov-report=xml
+      - name: Check formatting
+        run: |
+          black --check .
+
+
+      
